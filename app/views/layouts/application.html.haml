@@ -1,0 +1,38 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title ChristinesDiary
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    %link{href: "https://use.fontawesome.com/releases/v5.6.1/css/all.css", rel: "stylesheet"}/
+  %body
+    %header
+      .header-logo
+        CHRISTINE HATA
+      %ul.header-list
+        %li.header-list__titl
+          = link_to "#", class: "ggg" do
+            ABOUT ME
+        %li.header-list__titl
+          = link_to "#", class: "ggg" do
+            MY APPS
+        %li.header-list__titl
+          = link_to "#", class: "ggg" do
+            CONTACT
+        %li.header-list__titl
+          = link_to "#", class: "ggg" do
+            LIFE
+    = yield
+    %footer
+      %ul.btn-wrapper
+        %li.iconss
+          =link_to "https://www.instagram.com/christine_hata/?hl=ja", class:"insta_icon" do
+            %i.fab.fa-instagram
+        %li.iconss
+          =link_to "https://twitter.com/0505_chris", class:"twitter_icon" do
+            %i.fab.fa-twitter
+        %li.iconss
+          = link_to "https://github.com/rosebychristine", class:"github_icon" do
+            %i.fab.fa-github
