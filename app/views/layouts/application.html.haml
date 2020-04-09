@@ -10,7 +10,8 @@
   %body
     %header
       .header-logo
-        CHRISTINE HATA
+        =link_to root_path, class: "header-logo__title" do
+          CHRISTINE HATA
       %ul.header-list
         %li.header-list__titl
           = link_to "#", class: "ggg" do
@@ -19,7 +20,7 @@
           = link_to "#", class: "ggg" do
             MY APPS
         %li.header-list__titl
-          = link_to "#", class: "ggg" do
+          = link_to new_contact_path, class: "ggg" do
             CONTACT
         %li.header-list__titl
           = link_to "#", class: "ggg" do

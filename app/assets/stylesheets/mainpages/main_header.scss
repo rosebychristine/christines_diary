@@ -47,6 +47,12 @@ header {
   float:left;
   padding :10px 30px;
   font-size: 40px;
+
+  &__title {
+    text-decoration: none;
+    display: inline-block;
+    color:black;
+  }
   }
   
 
