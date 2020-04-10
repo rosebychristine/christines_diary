@@ -3,23 +3,60 @@
   height: calc(100% - 200px);
   top: 100px;
   position: relative;
-}
-.form-group {
-  background-color:white;
-  width: 100%;
-  height: 100%;
-  text-align: center;
 
-}
-.form-control {
-  height: 200px;
-  width: 40%;
-  margin: auto;
-  text-align: center;
-}
+  .new_contact {
+    width: 100%;
+    height: 700px;
+  }
+  .form-group {
+    background-color:white;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50px;
+    font-size: 100%;
 
-.send_btn {
-  height: 40PX;
-  width: 60px;
+    &__name {
+      height: 39px;
+      width: 330px;
+      margin: 20px 0;
+      border-radius: 4px;
+    }
+    &__email {
+      height: 39px;
+      width: 330px;
+      margin: 20px 0;
+      border-radius: 4px;
+    }
+    &__subject {
+      height: 39px;
+      width: 330px;
+      margin: 20px 0;
+      border-radius: 4px;
+    }
+    &__message {
+      height: 180px;
+      width: 40%;
+      margin: 20px 0;
+      border-radius: 4px;
+    }
+    &__send {
+      height: 100%;
+      width: 120px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%)
+    }
+  }
 
+  .send_btn {
+    height: 120px;
+    width: 210px;
+    margin: 0 auto;
+    position: relative;
+  }
 }
