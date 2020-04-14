@@ -3,57 +3,121 @@
   height: calc(100% - 200px);
   top: 100px;
   position: relative;
+}
+  .bodyTop {
+    width: 100%;
+    height: 690px;
+    position: absolute;
 
-  &__pic {
-    width: 970px;
-    height: 700px;
-    float: left;
-    top: 100px;
+    &__pic {
+      width: 970px;
+      height: 100%;
+      float: left;
+      padding: 12px;
+      display: flex;
+
+      .c-imgOne {
+        margin: 33px 20px;
+        height: 300px;
+        width: 420px;
+        
+
+      }
+      .c-imgTwo {
+        height: 540px;
+        width: 420px;
+        margin: 72px 15px;
+      }
+    }
+    &__text {
+      width: 440px;
+      height: 100%;
+      float: right;
+      padding-right: 15px;
+
+      &__header {
+        padding: 30px 0;
+
+        .chris-intro {
+          font-size: 50px;
+        }
+        .chris-intro-sub {
+          font-size: 15px;
+          margin-bottom: 15px;
+        }
+        .about_c {
+          font-size: 16px;
+          text-align: left;
+          line-height: 25px;
+        }
+      }
+    }
   }
-  &__text {
-    width: 470px;
-    height: 700px;
-    float: right;
-    top: 100px;
 
-    &__header {
-      padding: 30px 0;
 
-      .chris-intro {
-        font-size: 50px;
-      }
-      .chris-intro-sub {
-        font-size: 15px;
-        margin-bottom: 15px;
-      }
-      .about_c {
+  .bodyMiddle{
+    width: 100%;
+    height: 600px;
+    top: 690px;
+    position: absolute;
+    padding: 20px;
+
+    .christines-experience {
+      width: 780px;
+      height: 570px;
+      top: 700px;
+      padding: 33px;
+
+      .experi_c {
         font-size: 16px;
-        text-align: left;
         line-height: 25px;
       }
     }
   }
-}
-.intro img{
-  padding : 50px;
-  float :left;
-}
-.christine-work {
-  height: 740px;
-  width: 100%;
+  .bodyBottom {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    bottom: 240px;
 
-  .app-text-part {
-    &__sec_one {
-      height: 300px;
-      width: 50%;
-      float: left;
-
-
+    &__title {
+      font-size: 20px;
+      text-align: center;
+      width: 510px;
+      height: 20px;
+      position: relative;
     }
-    &__sec_two {
-      height: 300px;
-      width: 50%;
-      float: left;
+    .christine-work {
+      height: 740px;
+      width: 100%;
+      display: flex;
+      top: 10px;
     }
+    .app-img-part{
+      padding : 0, 42px;
+      float :left;
+      top: 20px;
+      height: 330px;
+
+      .fmarket-img {
+        margin: 0 auto;
+      }
+      .blog-img {
+        margin: 0 auto;
+        padding-top: 20px;
+      }
+    }
+
+        // &__sec_one {
+        //   height: 300px;
+        //   width: 50%;
+        //   float: left;
+
+
+        // }
+        // &__sec_two {
+        //   height: 300px;
+        //   width: 50%;
+        //   float: left;
+        // }
   }
-}
