@@ -1,53 +1,54 @@
 .intro
-  #aboutme.bodyTop
-    .bodyTop__pic
-      = image_tag 'pic_two.jpg', alt: 'profile-picture', class: 'c-imgOne'
-      = image_tag 'pic_one.jpg', alt: 'profile-picture', class: 'c-imgTwo'
-    .bodyTop__text
-      .bodyTop__text__header
-        %h2.chris-intro
-          Hata Christine
-        %p.chris-intro-sub
-          ハタ  クリスティーン
-        %p.about_c
-          Birthday / 誕生日
-        %p.about_c
-          1997.05.05
-        %br
-        %p.about_c
-          Educational background / 学歴
-        %p.about_c
-          2020年3月  関西外国語大学 外国語学部 英米語学科  卒業
-        %br
-        %p.about_c
-          My daily routine / 日課
-        %p.about_c
-          ・早寝早起き・読書・筋トレ・Podcastを聴くこと
-        %br
-        %p.about_c
-          Hobby / 趣味
-        %p.about_c
-          ・ダンス (Hip-hop, Waack, Jazz, Lock, Popというジャンルを週５〜7日というスケジュールで12年間過ごしていました)
+  %section.bodyTop
+    #aboutme
+      .bodyTop__pic
+        = image_tag 'pic_two.jpg', alt: 'profile-picture', class: 'c-imgOne'
+        = image_tag 'pic_one.jpg', alt: 'profile-picture', class: 'c-imgTwo'
+      .bodyTop__text
+        .bodyTop__text__header
+          %h2.chris-intro
+            Hata Christine
+          %p.chris-intro-sub
+            ハタ  クリスティーン
+          %p.about_c
+            Birthday / 誕生日
+          %p.about_c
+            1997.05.05
           %br
-            ・旅行 (アメリカ7州,タイ,カナダ,ラオス,韓国)
+          %p.about_c
+            Educational background / 学歴
+          %p.about_c
+            2020年3月  関西外国語大学 外国語学部 英米語学科  卒業
+          %br
+          %p.about_c
+            My daily routine / 日課
+          %p.about_c
+            ・早寝早起き・読書・筋トレ・Podcastを聴くこと
+          %br
+          %p.about_c
+            Hobby / 趣味
+          %p.about_c
+            ・ダンス (Hip-hop, Waack, Jazz, Lock, Popというジャンルを週５〜7日というスケジュールで12年間過ごしていました)
             %br
-              ・写真を撮ること (私の写真を気に入ってくださり、3ヶ月ほど京都のホテルの写真撮影を任せて頂いておりました。)
-        %p.about_c
-          study / 学び
-        %p.about_c
-          ・Ruby/HTML/CSS/Haml/Scss/JavaScript/
-          %br 
-            ・jQuery/AWS/Git/Github/Heroku
-        %br
-        %p.about_c
-          Contact / 連絡先
+              ・旅行 (アメリカ7州,タイ,カナダ,ラオス,韓国)
+              %br
+                ・写真を撮ること (私の写真を気に入ってくださり、3ヶ月ほど京都のホテルの写真撮影を任せて頂いておりました。)
+          %p.about_c
+            study / 学び
+          %p.about_c
+            ・Ruby/HTML/CSS/Haml/Scss/JavaScript/
+            %br 
+              ・jQuery/AWS/Git/Github/Heroku
           %br
-            christine.hata05@gmail.com
+          %p.about_c
+            Contact / 連絡先
+            %br
+              christine.hata05@gmail.com
 
 
   .bodyMiddle
-    .christines-experience
-      %h2.experi_titl
+    %section.christines-experience
+      %h1.experi_titl
         Experience / 経験
       %br
       %p.experi_c
@@ -112,7 +113,9 @@
           %h3.app-text-part__sec_two__titl
             ブログアプリ
             .app-text-part__sec_two__exp
-              カリキュラムで作成したものに、いいね機能と画像の表示や新たなpathの追加、そして見た目の修正等を行いました。背景画像は私が趣味で撮影したものです。
+              カリキュラムで作成したものに、いいね機能と画像の表示や新たなpathの追加、
+              %br
+                そして見た目の修正等を行いました。背景画像は私が趣味で撮影したものです。
             .app-text-part__sec_two__exp
               = link_to 'https://chrblog.herokuapp.com/'
             %br
