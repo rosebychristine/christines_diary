@@ -1,5 +1,5 @@
 .intro
-  .bodyTop
+  #aboutme.bodyTop
     .bodyTop__pic
       = image_tag 'pic_two.jpg', alt: 'profile-picture', class: 'c-imgOne'
       = image_tag 'pic_one.jpg', alt: 'profile-picture', class: 'c-imgTwo'
@@ -49,20 +49,24 @@
     .christines-experience
       %h2.experi_titl
         Experience / 経験
+      %br
       %p.experi_c
         [ボランティア活動]
         %br
           ラオスの小学校建設に携わるボランティア団体に所属。実際に春と夏の２回ラオスの小学校に訪問をし、現地の方からのヒヤリングを通して多くの現状や課題を知る機会を頂き、帰国後はラオスの子供達の為への資金集めにさらに注力をしました。その結果、約350万円を集めることに成功し、4校目の小学校を開校することが出来ました。
+      %br
       %p.experi_c
         [模擬国連]
         %br 
           2018年: JEMUN主催の模擬国連に、ビデオグラファーとして参加し、実際に国際機関で働かれるゲストスピーカーの方に様々な疑問や問題について英語でインタビューをさせて頂き、他にも参加者の取り組む姿を撮影した物の編集と発信をしました。
         %tb
           2019年: JEMUN主催の模擬国連でマリ共和国を担当し、英語を使用してのディスカッションやプレゼンテーションを通して貧困問題や男女格差問題についての解決に向けて取り組みました。
+      %br
       %p.experi_c
         [短期留学]
         %br
           9月から12月までの3ヶ月間、英語と社会学を学びにアメリカの西海岸にあるシアトルセントラルカレッジで短期留学をしました。
+      %br
       %p.experi_c
         [プログラミング]
         %br
@@ -111,3 +115,13 @@
               カリキュラムで作成したものに、いいね機能と画像の表示や新たなpathの追加、そして見た目の修正等を行いました。背景画像は私が趣味で撮影したものです。
             .app-text-part__sec_two__exp
               = link_to 'https://chrblog.herokuapp.com/'
+            %br
+            .app-text-part__sec_two__exp
+              ・実装機能
+              %br
+                ログイン、ログアウト機能、ブログ投稿(写真一枚とテキストを投稿できます）、編集と削除機能、良いね機能（現在リロードしていただくと反映します）
+            %br
+            .app-text-part__sec_two__exp
+              ・開発環境
+              %br
+                Ruby/Ruby on Rails/Github/Heroku/Visual Studio Code
