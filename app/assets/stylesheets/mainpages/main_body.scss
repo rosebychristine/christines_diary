@@ -124,11 +124,25 @@
 
       &__sec_one {
         height: 350px;
+
+        &__titl {
+          font-size: 20px;
+        }
+        &__exp {
+          font-size: 15px;
+        }
       }
 
       &__sec_two {
         height: 330px;
         padding-top: 27px;
+
+        &__titl {
+          font-size: 20px;
+        }
+        &__exp {
+          font-size: 15px;
+        }
       }
     }
   }
