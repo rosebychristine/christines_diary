@@ -128,9 +128,11 @@
 
         &__titl {
           font-size: 20px;
+          margin-bottom: 15px;
         }
         &__exp {
-          font-size: 15px;
+          font-size: 18px;
+          padding: 6px;
         }
       }
 
@@ -140,11 +142,10 @@
 
         &__titl {
           font-size: 20px;
-          height: 20px;
-          margin-bottom: 9px;
+          margin-bottom: 15px;
         }
         &__exp {
-          font-size: 15px;
+          font-size: 18px;
         }
       }
     }
