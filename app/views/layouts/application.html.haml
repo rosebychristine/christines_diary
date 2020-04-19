@@ -7,6 +7,7 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     %link{href: "https://use.fontawesome.com/releases/v5.6.1/css/all.css", rel: "stylesheet"}/
+    %meta{content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0", name: "viewport"}
   %body
     %header
       .header-logo
@@ -14,17 +15,17 @@
           CHRISTINE HATA
       %ul.header-list
         %li.header-list__titl
-          = link_to anchor: "aboutme", class: "ggg" do
+          = link_to "#aboutme", class: "ggg" do
             ABOUT ME
         %li.header-list__titl
-          = link_to "#", class: "ggg" do
-            MY APPS
+          = link_to "#myexperience", class: "ggg" do
+            EXPERIENCE
+        %li.header-list__titl
+          = link_to "#mywork", class: "ggg" do
+            MY WORK
         %li.header-list__titl
           = link_to new_contact_path, class: "ggg" do
             CONTACT
-        %li.header-list__titl
-          = link_to "#", class: "ggg" do
-            LIFE
     = yield
     %footer
       %ul.btn-wrapper
