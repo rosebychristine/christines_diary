@@ -13,19 +13,45 @@
       .header-logo
         =link_to root_path, class: "header-logo__title" do
           CHRISTINE HATA
-      %ul.header-list
-        %li.header-list__titl
-          = link_to "#aboutme", class: "ggg" do
-            ABOUT ME
-        %li.header-list__titl
-          = link_to "#myexperience", class: "ggg" do
-            EXPERIENCE
-        %li.header-list__titl
-          = link_to "#mywork", class: "ggg" do
-            MY WORK
-        %li.header-list__titl
-          = link_to new_contact_path, class: "ggg" do
-            CONTACT
+      -# %nav.global-nav
+      -#   %ul.global-nav__list
+      -#     %li.global-nav__item
+      -#       = link_to "#aboutme" do
+      -#         ABOUT ME
+      -#     %li.global-nav__item
+      -#       = link_to "#myexperience" do
+      -#         EXPERIENCE
+      -#     %li.global-nav__item
+      -#       = link_to "#mywork" do
+      -#         MY WORK
+      -#     %li.global-nav__item
+      -#       = link_to new_contact_path do
+      -#         CONTACT
+      -# #js-hamburger.hamburger
+      -#   %span.hamburger__line.hamburger__line--1
+      -#   %span.hamburger__line.hamburger__line--2
+      -#   %span.hamburger__line.hamburger__line--3
+      -# #js-black-bg.black-bg
+      #nav-drawer
+        %input#nav-input.nav-unshown{type: "checkbox"}/
+        %label#nav-open{for: "nav-input"}
+          %span
+        %label#nav-close.nav-unshown{for: "nav-input"}
+        #nav-content
+          %ul.header-list
+            %li.header-list__titl
+              = link_to "#aboutme", class: "ggg" do
+                ABOUT ME
+            %li.header-list__titl
+              = link_to "#myexperience", class: "ggg" do
+                EXPERIENCE
+            %li.header-list__titl
+              = link_to "#mywork", class: "ggg" do
+                MY WORK
+            %li.header-list__titl
+              = link_to new_contact_path, class: "ggg" do
+                CONTACT
+
     = yield
     %footer
       %ul.btn-wrapper
