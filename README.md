@@ -1,24 +1,25 @@
-# README
+# Christines Diary<br>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview<br>
 
-Things you may want to cover:
+概要<br>
+About myself<br>
 
-* Ruby version
 
-* System dependencies
+## Production environment<br>
+* What I used to make this  
+Heroku deployment/SQL/Ruby/Ruby on Rails/Haml/Scss<br>
 
-* Configuration
+開発環境は、Heroku//SQL/Ruby/Ruby on Rails/Haml/Scssを使用しました。
 
-* Database creation
+## Background of this app<br>
 
-* Database initialization
 
-* How to run the test suite
+* Please go check the down below link to see the app.<br>
+ https://christine-hata.herokuapp.com/ <br>
 
-* Services (job queues, cache servers, search engines, etc.)
+制作背景<br>
+<br>
 
-* Deployment instructions
-
-* ...
+* 下記の[url](https://christine-hata.herokuapp.com/)を押していただくとブログアプリに飛ぶことができます。<br>
+https://christine-hata.herokuapp.com/
