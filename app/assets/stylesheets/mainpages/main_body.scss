@@ -100,27 +100,27 @@
     .app-img-part{
       float :left;
       height: 690px;
-      width: 660px;
-      margin-left: 42px;
+      width: 42%;
+      margin-left: 6%;
 
       .fmarket-img {
         display: inline-block;
         padding-top: 33px;
-        height: 330px;
+        height: 50%;
       }
       .blog-img {
         display: inline-block;
         padding-top: 33px;
         margin-top: 30px;
-        height: 330px;
+        height: 50%;
       }
     }
     .app-text-part {
       float: right;
-      width: 730px;
+      width: 45%;
       height: 690px;
       padding-top: 33px;
-      padding-right: 74px;
+      padding-right: 3%;
 
       &__sec_one {
         height: 350px;
